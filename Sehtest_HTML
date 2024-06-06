@@ -28,7 +28,6 @@
         <h2>Astigmatismus-Test</h2>
         <!-- Hier können Sie den Astigmatismus-Test einfügen -->
         <p>Bitte beurteilen Sie die Klarheit der Linien:</p>
-        <img src="astigmatism_test_image.jpg" alt="Astigmatismus-Test" width="300">
     </div>
 
     <script>
