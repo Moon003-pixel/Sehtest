@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sehtest</title>
     <style>
+        /* CSS-Styling für den Sehtest */
         body {
             font-family: Arial, sans-serif;
             text-align: center;
@@ -13,8 +14,8 @@
             font-size: 2rem;
             margin: 20px;
         }
-        img {
-            margin: 20px;
+        .astigmatism-test {
+            margin-top: 50px;
         }
     </style>
 </head>
@@ -23,16 +24,18 @@
     <div class="test-chart" id="snellen-chart">
         <!-- Snellen Chart wird hier eingefügt -->
     </div>
-    <div id="color-test">
-        <h2>Farbsehtest</h2>
-        <img src="path_to_ishihara_plate.jpg" alt="Ishihara Farbsehtest" width="300">
-    </div>
-    <div id="astigmatism-test">
+    <div class="astigmatism-test">
         <h2>Astigmatismus-Test</h2>
-        <img src="path_to_astigmatism_test.jpg" alt="Astigmatismus-Test" width="300">
+        <!-- Hier können Sie den Astigmatismus-Test einfügen -->
+        <p>Bitte beurteilen Sie die Klarheit der Linien:</p>
+        <img src="astigmatism_test_image.jpg" alt="Astigmatismus-Test" width="300">
     </div>
+
     <script>
+        // JavaScript für den Sehtest
         document.addEventListener("DOMContentLoaded", function() {
+            // Hier können Sie den Code für den Snellen Chart einfügen
+            // Zum Beispiel:
             const snellenChart = [
                 "E", "FP", "TOZ", "LPED", "PECFD", "EDFCZP", "FELOPZD", "DEFPOTEC"
             ];
@@ -49,3 +52,4 @@
     </script>
 </body>
 </html>
+
